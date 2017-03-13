@@ -85,7 +85,8 @@ function setup() {
    }
    p = new pad();
    b = new ball();
-   frameRate(30);
+//   frameRate(30);
+   createP("Use left and right arrow keys.");
 }
 
 function draw() {
